@@ -40,6 +40,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![web102_p8](https://github.com/1angad/web102_p8/assets/96559688/fde8cf5a-08a3-4505-992d-38957d430864)
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
