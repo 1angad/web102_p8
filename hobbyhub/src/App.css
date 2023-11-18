@@ -1,0 +1,185 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #12BCA2;
+  height: 60px;
+  padding: 0 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  justify-content: space-between;
+  color: white;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.navbar input[type='text'] {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.sort{
+  font-family: inherit;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 1rem;
+  padding-left: 0px;
+  color: black;
+}
+
+.sort button {
+  background-color: #12BCA2;
+  font-family: inherit;
+  border: none;
+  color: white;
+  padding: 12px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#upvotes {
+  background-color: #397a6b;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 60%;
+  border-radius: 6px;
+}
+
+.container input[type="text"],
+.container textarea {
+  box-sizing: border-box;
+  font-family: inherit;
+  font-size: 1rem;
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  resize: none;
+}
+
+.container input[type="submit"] {
+  background-color: #12BCA2;
+  font-family: inherit;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.post {
+  font-family: inherit;
+  background-color: white;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 1rem;
+  color: black;
+}
+
+.loading {
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  color: black;
+}
+
+.loading img {
+  width: 100%;
+}
+
+.post .interact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.upvotes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+  align-items: center;
+}
+
+.icons img {
+  background-color: #eeeeee;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.comments {
+  margin-top: 2rem;
+  background-color: #f2f2f2;
+  border-radius: 6px;
+}
+
+.comments ul {
+  padding-top: 1rem;;
+}
+
+.comments ul li {
+  list-style-type: '-';
+  margin: 10px 0;
+}
+
+.comments [input="text"] {
+  width: 100%;
+  padding: 10px;
+  margin: 12px 0;
+  resize: none;
+}
+
+.comments button {
+  background-color: #12BCA2;
+  font-family: inherit;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0.5rem 0;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.comments ul {
+  list-style-type: '-';
+}
+
+.comments input[type="text"] {
+  width: calc(100% - 20px); /* Subtract the total horizontal margin from the width */
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 12px 10px;
+}
